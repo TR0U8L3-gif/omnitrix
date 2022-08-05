@@ -52,7 +52,7 @@ function Background() {
     const animate = () => {
         var background = document.getElementById("bg");
         var ctx = background.getContext("2d");
-        ctx.fillStyle = 'green';
+        ctx.fillStyle = '#1e8e0b';
         ctx.clearRect(0, 0, background.width, background.height);
         effect.update();
         effect.draw(ctx);
