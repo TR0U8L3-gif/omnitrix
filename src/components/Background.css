@@ -6,6 +6,9 @@
 }
 canvas
 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
     display: block;
     background-color: black;
     filter: blur(12px) contrast(4);
