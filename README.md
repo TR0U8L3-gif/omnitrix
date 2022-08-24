@@ -1,4 +1,4 @@
-## Welcome to the ben 10 omnitrix app
+## Welcome to the Ben 10 Omnitrix App
 Currently the site is under construction but the api is fully functional [Ben 10 Omnitrix Api](https://ben10-omnitrix-api.herokuapp.com/)
 
 **The api allows you to**:
