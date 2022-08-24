@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+## Welcome to the ben 10 omnitrix app
+Currently the site is under construction but the api is fully functional [Ben 10 Omnitrix Api](https://ben10-omnitrix-api.herokuapp.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**The api allows you to**:
 
-## Available Scripts
+	Operate on Ben 10 aliens data:
+	
+ - returns a specified number of ben 10 aliens where the limit parameter is responsible for the number of displayed aliens and the page parameter for the page number  ([try](https://ben10-omnitrix-api.herokuapp.com/aliens?page=1&limit=5))
+	`https://ben10-omnitrix-api.herokuapp.com/aliens?page=1&limit=5`
 
-In the project directory, you can run:
+- returns all ben 10 aliens names with their indexes  ([try](https://ben10-omnitrix-api.herokuapp.com/knownAliens))
+	`https://ben10-omnitrix-api.herokuapp.com/knownAliens`
 
-### `npm start`
+- returns a specific ben 10 alien found by name or index ([try name](https://ben10-omnitrix-api.herokuapp.com/Arctiguana)) ([try index](https://ben10-omnitrix-api.herokuapp.com/1))
+	`https://ben10-omnitrix-api.herokuapp.com/Arctiguana`
+	`https://ben10-omnitrix-api.herokuapp.com/1`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- returns a random ben 10 alien ([try](https://ben10-omnitrix-api.herokuapp.com/random))
+	`https://ben10-omnitrix-api.herokuapp.com/random`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br/>
+	
+	Operate on Ben 10 aliens images:
+	
+- returns a specific ben 10 alien image found by name or index ([try name](https://ben10-omnitrix-api.herokuapp.com/img/Arctiguana)) ([try index](https://ben10-omnitrix-api.herokuapp.com/img/1))
+	`https://ben10-omnitrix-api.herokuapp.com/img/Arctiguana`
+	`https://ben10-omnitrix-api.herokuapp.com/img/1`
 
-### `npm test`
+- returns a random image of an ben 10 alien ([try](https://ben10-omnitrix-api.herokuapp.com/img/random))
+	`https://ben10-omnitrix-api.herokuapp.com/img/random`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
 
-### `npm run build`
+**Shout Out**: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Inspiration for this project as well as all content and images are provided by [Ben 10 Planet](https://ben10.fandom.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ben 10 Planet is the ultimate resource for the Ben 10 franchise, consisting of over 100,000 pictures and over 5,600 pages of detailed information on the TV show. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
 
-### `npm run eject`
+**Disclaimer**: 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ben 10 is a registered trademark of Cartoon Network, Turner Broadcasting (dissolved), WarnerMedia (Merged with Discovery), and Warner Bros. Discovery. Ben 10 omnitrix app and its developer are not affiliated with Cartoon Network, Turner Broadcasting (dissolved), Warner Brothers and its parent companies Warner Bros. Discovery (formerly Time Warner and WarnerMedia) and former parent companies AT&T.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ben 10 omnitrix app is a free application and reference to the aliens found in Ben 10 and his franchise. The project was intended for entertainment and educational purposes only.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**License**: 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ben 10 omnitrix app is licensed under [MIT License](https://github.com/TR0U8L3-gif/omnitrix/blob/main/LICENSE).
